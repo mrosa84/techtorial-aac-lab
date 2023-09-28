@@ -31,7 +31,7 @@ You will find a `Code` button above the repository. You will be presented with t
 Go to a terminal and select the folder where you want to store the repository. Then, clone the Git repository as follows:
 
 ```sh
-~/prompt> git clone https://github.com/`<your_user_name>`/techtorial-aac-lab.git <folder_name>
+~/prompt> git clone https://github.com/<your_user_name>/techtorial-aac-lab.git <folder_name>
 ```
 
 As an example:
