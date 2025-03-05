@@ -1,9 +1,9 @@
 ---
 apic:
   tenants:
-    - name: Techtorial
+    - name: Techtorial-martin
 
-      description: "AaC demo tenant by balnovak"
+      description: "AaC demo tenant"
 
       vrfs:
         - name: VRF1
@@ -27,6 +27,17 @@ apic:
           vrf: VRF1
           subnets:
             - ip: 10.1.4.1/23
+        - name: VLAN105
+          vrf: VRF1
+          subnets:
+            - ip: 10.1.5.1/23
+              primary_ip: false
+              public: false
+              shared: false
+              virtual: false
+              igmp_querier: false
+              nd_ra_prefix: true
+              no_default_gateway: false
 
       application_profiles:
         - name: DEV
@@ -40,4 +51,6 @@ apic:
               bridge_domain: VLAN103
             - name: VLAN104
               bridge_domain: VLAN104
+            - name: VLAN105
+              bridge_domain: VLAN105
 

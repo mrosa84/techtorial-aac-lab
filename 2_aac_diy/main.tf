@@ -1,11 +1,4 @@
 terraform {
-  cloud {
-    organization = "balnovak"
-
-    workspaces {
-      name = "techtorial-demo"
-    }
-  }
 }
 
 module "aci" {
