@@ -27,17 +27,10 @@ apic:
           vrf: VRF1
           subnets:
             - ip: 10.1.4.1/23
-        - name: VLAN105
+        - name: VLAN104
           vrf: VRF1
           subnets:
-            - ip: 10.1.5.1/23
-              primary_ip: false
-              public: false
-              shared: false
-              virtual: false
-              igmp_querier: false
-              nd_ra_prefix: true
-              no_default_gateway: false
+            - ip: 10.1.4.1/23
 
       application_profiles:
         - name: DEV
