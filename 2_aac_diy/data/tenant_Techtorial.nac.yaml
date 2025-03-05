@@ -30,7 +30,7 @@ apic:
         - name: VLAN105
           vrf: VRF1
           subnets:
-            - ip: 10.1.5.1/23
+            - ip: 10.1.6.1/23
 
       application_profiles:
         - name: DEV
